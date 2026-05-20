@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>นโยบายความเป็นส่วนตัว - ขายแหลก | Yaksa Tech</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@300;400;600;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="/" class="logo">
+                <span class="logo-icon">&#9670;</span>
+                <span class="logo-text">Yaksa Tech</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="index.html">หน้าแรก</a></li>
+                <li><a href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a></li>
+                <li><a href="terms-of-service.html">ข้อกำหนดการใช้บริการ</a></li>
+            </ul>
+            <button class="nav-toggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <section class="hero" style="padding: 140px 0 60px;">
+        <div class="container">
+            <h1 style="font-size: 2.5rem;">นโยบายความเป็นส่วนตัว</h1>
+            <p class="hero-subtitle">แอปพลิเคชัน "ขายแหลก" (Khai Lheak)</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="container">
+            <div class="policy-content">
+                <p><strong>วันที่มีผลบังคับใช้:</strong> 20 พฤษภาคม 2026</p>
+                <p><strong>ชื่อแอป:</strong> ขายแหลก (Khai Lheak)</p>
+                <p><strong>ผู้พัฒนา:</strong> Yaksa Tech</p>
+                <p><strong>Package Name:</strong> com.heydev.khai_lheak_app</p>
+
+                <h2>1. บทนำ</h2>
+                <p>Yaksa Tech ("เรา", "ของเรา") ให้ความสำคัญกับความเป็นส่วนตัวของผู้ใช้งาน นโยบายความเป็นส่วนตัวนี้อธิบายวิธีการที่แอปพลิเคชัน "ขายแหลก" เก็บรวบรวม ใช้ และปกป้องข้อมูลของคุณ</p>
+                <p>แอป "ขายแหลก" เป็นแอปพลิเคชัน POS (Point of Sale) ที่ออกแบบมาเพื่อช่วยจัดการการขาย สแกนบาร์โค้ด และพิมพ์ใบเสร็จผ่านเครื่องพิมพ์ Bluetooth โดยรองรับการใช้งานแบบออฟไลน์</p>
+
+                <h2>2. ข้อมูลที่เราเก็บรวบรวม</h2>
+                <p>แอปพลิเคชันของเราอาจเก็บรวบรวมข้อมูลประเภทต่อไปนี้:</p>
+
+                <h3>2.1 ข้อมูลบัญชีผู้ใช้</h3>
+                <ul>
+                    <li>ข้อมูลจาก Google Sign-In: ชื่อ อีเมล และรูปโปรไฟล์ (เพื่อการยืนยันตัวตนและเข้าสู่ระบบ)</li>
+                </ul>
+
+                <h3>2.2 ข้อมูลธุรกิจ</h3>
+                <ul>
+                    <li>ข้อมูลสินค้า: ชื่อ ราคา บาร์โค้ด รูปภาพสินค้า</li>
+                    <li>ข้อมูลการขาย: ประวัติการขาย ใบเสร็จ</li>
+                    <li>ข้อมูลเหล่านี้จัดเก็บในเครื่อง (Hive local database) และซิงค์กับ Firebase Cloud Firestore เมื่อเชื่อมต่ออินเทอร์เน็ต</li>
+                </ul>
+
+                <h3>2.3 ข้อมูลอุปกรณ์</h3>
+                <ul>
+                    <li>ข้อมูลอุปกรณ์: รุ่น ระบบปฏิบัติการ (เพื่อการแก้ไขปัญหาทางเทคนิค)</li>
+                </ul>
+
+                <h2>3. สิทธิ์การเข้าถึง (Permissions)</h2>
+                <p>แอปพลิเคชันขอสิทธิ์การเข้าถึงดังต่อไปนี้:</p>
+                <ul>
+                    <li><strong>กล้อง:</strong> ใช้สำหรับสแกนบาร์โค้ดสินค้า</li>
+                    <li><strong>Bluetooth:</strong> ใช้สำหรับเชื่อมต่อเครื่องพิมพ์ใบเสร็จแบบ Bluetooth</li>
+                    <li><strong>ตำแหน่งที่ตั้ง:</strong> จำเป็นสำหรับการค้นหาอุปกรณ์ Bluetooth บน Android (ไม่ได้ติดตามตำแหน่งของคุณ)</li>
+                    <li><strong>พื้นที่จัดเก็บ:</strong> ใช้สำหรับบันทึกรูปภาพสินค้าและข้อมูลออฟไลน์</li>
+                    <li><strong>อินเทอร์เน็ต:</strong> ใช้สำหรับซิงค์ข้อมูลกับ Firebase และการเข้าสู่ระบบ Google</li>
+                </ul>
+
+                <h2>4. วิธีการใช้ข้อมูล</h2>
+                <p>เราใช้ข้อมูลที่เก็บรวบรวมเพื่อ:</p>
+                <ul>
+                    <li>ให้บริการแอปพลิเคชัน POS และจัดการสินค้า</li>
+                    <li>ยืนยันตัวตนผู้ใช้งานผ่าน Google Sign-In</li>
+                    <li>สำรองข้อมูลและซิงค์ข้อมูลระหว่างอุปกรณ์</li>
+                    <li>พิมพ์ใบเสร็จผ่านเครื่องพิมพ์ Bluetooth</li>
+                    <li>ปรับปรุงประสบการณ์การใช้งาน</li>
+                    <li>จัดการ subscription และ in-app purchase</li>
+                </ul>
+
+                <h2>5. การจัดเก็บข้อมูล</h2>
+                <ul>
+                    <li><strong>ข้อมูลในเครื่อง:</strong> ข้อมูลสินค้าและการขายจัดเก็บในฐานข้อมูล Hive บนอุปกรณ์ของคุณ ทำให้ใช้งานได้แม้ไม่มีอินเทอร์เน็ต</li>
+                    <li><strong>ข้อมูลบนคลาวด์:</strong> ข้อมูลที่ซิงค์จัดเก็บบน Firebase Cloud Firestore และ Firebase Storage ของ Google ซึ่งมีมาตรการรักษาความปลอดภัยระดับสูง</li>
+                </ul>
+
+                <h2>6. การแบ่งปันข้อมูล</h2>
+                <p>เราจะไม่ขาย แลกเปลี่ยน หรือโอนข้อมูลส่วนบุคคลของคุณให้แก่บุคคลภายนอก ยกเว้น:</p>
+                <ul>
+                    <li><strong>Google Firebase:</strong> ใช้สำหรับจัดเก็บและซิงค์ข้อมูล ตามนโยบายความเป็นส่วนตัวของ Google</li>
+                    <li><strong>Google Play Billing:</strong> ใช้สำหรับจัดการ subscription และ in-app purchase</li>
+                    <li>เพื่อปฏิบัติตามกฎหมายหรือคำสั่งศาล</li>
+                </ul>
+
+                <h2>7. ความปลอดภัยของข้อมูล</h2>
+                <ul>
+                    <li>ใช้ Firebase App Check เพื่อป้องกันการเข้าถึง backend โดยไม่ได้รับอนุญาต</li>
+                    <li>การยืนยันตัวตนผ่าน Firebase Authentication</li>
+                    <li>ข้อมูลบนคลาวด์ได้รับการเข้ารหัสและปกป้องตามมาตรฐานของ Google Cloud</li>
+                </ul>
+
+                <h2>8. สิทธิ์ของคุณ</h2>
+                <p>คุณมีสิทธิ์:</p>
+                <ul>
+                    <li>เข้าถึงข้อมูลส่วนบุคคลของคุณ</li>
+                    <li>ขอแก้ไขข้อมูลที่ไม่ถูกต้อง</li>
+                    <li>ขอให้ลบข้อมูลและบัญชีของคุณ</li>
+                    <li>ยกเลิกการใช้งานและลบข้อมูลในเครื่องได้โดยการถอนการติดตั้งแอป</li>
+                </ul>
+
+                <h2>9. เด็กและเยาวชน</h2>
+                <p>แอปพลิเคชันนี้ไม่ได้ออกแบบมาสำหรับเด็กอายุต่ำกว่า 13 ปี เราไม่ได้เก็บรวบรวมข้อมูลจากเด็กโดยเจตนา</p>
+
+                <h2>10. การเปลี่ยนแปลงนโยบาย</h2>
+                <p>เราอาจปรับปรุงนโยบายความเป็นส่วนตัวนี้เป็นครั้งคราว การเปลี่ยนแปลงจะประกาศผ่านทางแอปพลิเคชันหรือเว็บไซต์นี้</p>
+
+                <h2>11. ติดต่อเรา</h2>
+                <p>หากคุณมีคำถามเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ กรุณาติดต่อเราที่:</p>
+                <ul>
+                    <li><strong>อีเมล:</strong> yaksa.ltd.th@gmail.com</li>
+                    <li><strong>ผู้พัฒนา:</strong> Yaksa Tech</li>
+                    <li><strong>เว็บไซต์:</strong> https://zelef69.github.io/yaksa-tech-website/</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-icon">&#9670;</span>
+                    <span class="logo-text">Yaksa Tech</span>
+                </div>
+                <div class="footer-links">
+                    <a href="privacy-policy.html">นโยบายความเป็นส่วนตัว</a>
+                    <a href="terms-of-service.html">ข้อกำหนดการใช้บริการ</a>
+                </div>
+                <p class="footer-copy">&copy; 2026 Yaksa Tech. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <style>
+        .policy-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        .policy-content h2 {
+            font-size: 1.4rem;
+            color: var(--primary);
+            margin: 32px 0 12px;
+        }
+        .policy-content h3 {
+            font-size: 1.15rem;
+            color: var(--primary);
+            margin: 20px 0 8px;
+        }
+        .policy-content p {
+            color: var(--text-light);
+            margin-bottom: 12px;
+        }
+        .policy-content ul {
+            margin: 0 0 16px 24px;
+            color: var(--text-light);
+        }
+        .policy-content li {
+            margin-bottom: 8px;
+        }
+    </style>
+</body>
+</html>
